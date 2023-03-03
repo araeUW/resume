@@ -1,0 +1,32 @@
+#body{
+    width: 100%;   
+}
+
+#header{ 
+    width: 800px;
+    margin: 0 auto; 
+    text-align: center; 
+}
+
+#content{
+    width: 600px;
+    margin: 0 auto; 
+    display: flex;
+    flex-direction: column;
+}
+
+.resume{
+    display: flex;
+    flex-direction: row;
+}
+
+.description{
+    width: 0%;
+    margin-right: 170px;  
+}
+
+.list li {
+ display: inline-block;
+ margin: 0 10px;
+}
+
